@@ -1,0 +1,20 @@
+{
+  "name": "frontend-training-bootcamp-cis-team",
+  "version": "1.0.0",
+  "description": "Frontend Training Bootcamp hosted by the CIS Team and UCCD, we will build some applications using what was learned in the Front-End Committee.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FADL285/Frontend-Training-Bootcamp-CIS-Team.git"
+  },
+  "keywords": [],
+  "author": "Mohamed Fadl <Mohamed.Fadl2852@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FADL285/Frontend-Training-Bootcamp-CIS-Team/issues"
+  },
+  "homepage": "https://github.com/FADL285/Frontend-Training-Bootcamp-CIS-Team#readme"
+}
