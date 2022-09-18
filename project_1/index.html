@@ -63,7 +63,9 @@
     <!-- Javascript -->
     <script src="./assets/js/script.js" defer></script>
   </head>
-  <body>
+  <body class="fixed-nav">
+    <!-- TODO: Create the Preloader -->
+
     <!-- Navbar -->
     <nav class="navbar navbar--fixed" role="navigation" aria-label="Main">
       <div class="container--full">
@@ -147,5 +149,23 @@
       <!-- Backdrop -->
       <div class="navbar__backdrop" id="backdrop"></div>
     </nav>
+
+    <!-- Header -->
+    <header class="header header--secondary">
+      <div class="header__container content-center">
+        <div class="header__content">
+          <figure class="header__logo">
+            <img src="./assets/images/logos/logo.svg" alt="CIS Logo" />
+          </figure>
+          <h1 class="header__heading">
+            Our <br />
+            <span class="header__heading--highlight">Groups</span>
+          </h1>
+        </div>
+        <div class="header__bg-wrapper">
+          <div class="header__bg"></div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
