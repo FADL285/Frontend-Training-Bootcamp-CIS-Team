@@ -504,3 +504,93 @@ body.fixed-nav .header__content {
     clip-path: polygon(1.5% 0, 100% 0%, 100% 98.5%, 33% 98.5%);
   }
 }
+
+/* Groups Sections */
+main.groups-page {
+  background-color: var(--color-gray);
+  padding-block: 7.5rem;
+}
+
+@media screen and (min-width: 48em) {
+  .groups-page {
+    background-image: url("../images/shapes/blue_circles_sm.svg"),
+      url("../images/shapes/circle_shapes_right.svg"),
+      url("../images/shapes/green_circles.svg"),
+      url("../images/shapes/circle_shapes_left.svg"),
+      url("../images/shapes/green_circles.svg"),
+      url("../images/shapes/circle_shapes_right.svg"),
+      url("../images/shapes/circle_shapes_left.svg"),
+      url("../images/shapes/blue_circles_sm.svg");
+    background-position: left 10%, right 12%, right 36%, left 40%, left 66%,
+      right 70%, left 85%, right 90%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+      no-repeat, no-repeat, no-repeat;
+  }
+}
+
+.groups {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(20.625rem, 1fr));
+  gap: 1.5rem;
+}
+/* CARD */
+.card {
+  background: var(--color-white);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  min-inline-size: 20.625rem; /* 330px */
+  max-inline-size: 23em; /* 368px */
+}
+
+.card__figure {
+  overflow: hidden;
+  block-size: 250px;
+}
+
+.card__image {
+  inline-size: 100%;
+  block-size: 100%;
+  transition: var(--transition);
+}
+
+.card__image:hover {
+  transform: scale(1.1);
+}
+
+.card__header,
+.card__body,
+.card__footer {
+  padding-inline: 1rem;
+}
+
+.card__footer {
+  padding-block: 1rem;
+  margin-block: 1rem;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  color: var(--color-blue-dark);
+  font-weight: 700;
+  margin-block: 1rem;
+}
+
+.card__link {
+  color: inherit;
+}
+.card__copy {
+  line-height: 1.4;
+  color: var(--color-gray-dark);
+}
+
+.card__btn {
+  color: var(--color-blue-dark);
+  border: 1px solid var(--color-blue-dark);
+}
+.card__btn:hover {
+  color: var(--color-white);
+  background: var(--main-gradient);
+}
