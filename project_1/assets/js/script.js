@@ -4,7 +4,6 @@ const navbarMenu = document.getElementById("navbar-menu");
 const navbarBackdrop = document.getElementById("backdrop");
 const navbarMenuCloseBtn = document.getElementById("navbar-menu-close");
 
-console.log(navbarBackdrop, navbarMenuCloseBtn);
 
 // Create Function to open the menu
 function openMenu() {
