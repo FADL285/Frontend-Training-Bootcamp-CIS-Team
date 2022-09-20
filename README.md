@@ -7,20 +7,22 @@
 ## Table of Contents
 
 1. [Opening Session](#opening-session)
-2. [Day 1](#day-1)
-3. [Day 2](#day-2)
+2. [Project 1](#project-1)
+3. [Day 2](#project-2)
 
 ## Opening Session
 
 See Opening Session Presentation from [here](https://docs.google.com/presentation/d/1DGucFk-lQCu41l-hyEI42GVZ34XeGN_Y/view)
 
-## Day 1
+## Project 1
 
-On day 1, we will learn about Logical Properties in CSS.
+On first day, we learned about Logical Properties in CSS.
 Build a Group Page from the CIS website using HTML, CSS, and JavaScript.
 
-> Preview Figma file from this [link ↗](https://www.figma.com/file/Ga1BxCjiJ0josvo7CzImnC/CIS-Website-Groups---Workshop)
+> Preview Project Figma file from this [link ↗](https://www.figma.com/file/Ga1BxCjiJ0josvo7CzImnC/CIS-Website-Groups---Workshop)
 
-## Day 2
+## Project 2
 
-Continue building the Group Page from the CIS website using HTML, CSS, and JavaScript.
+Build HooBank Landing Page.
+
+> Preview Project Figma file from this [link ↗](https://www.figma.com/file/xxSv8p4V50Ooqsi9PLMBrI/HooBank?node-id=14602%3A68)
