@@ -8,7 +8,7 @@
 
 1. [Opening Session](#opening-session)
 2. [Project 1](#project-1)
-3. [Day 2](#project-2)
+3. [Project 2](#project-2)
 
 ## Opening Session
 
